@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include construction_management *.css
+recursive-include construction_management *.csv
+recursive-include construction_management *.html
+recursive-include construction_management *.ico
+recursive-include construction_management *.js
+recursive-include construction_management *.json
+recursive-include construction_management *.md
+recursive-include construction_management *.png
+recursive-include construction_management *.py
+recursive-include construction_management *.svg
+recursive-include construction_management *.txt
+recursive-exclude construction_management *.pyc
