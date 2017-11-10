@@ -42,7 +42,12 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "UOM",
-					"description": _("Plan for maintenance visits."),
+					"description": _("Unit of Measure"),
+				},
+				{
+					"type": "doctype",
+					"name": "Basic Rates",
+					"description": _("Standard Rates"),
 				},
 			]
 		}
