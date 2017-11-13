@@ -6,5 +6,5 @@ from __future__ import unicode_literals
 import frappe
 import unittest
 
-class TestRateAnalysis2(unittest.TestCase):
+class TestBasicRates(unittest.TestCase):
 	pass

@@ -30,6 +30,11 @@ def get_data():
 			"items": [
 				{
 					"type": "doctype",
+					"name": "BOQ",
+					"description": _("Construction related BOQ"),
+				},
+				{
+					"type": "doctype",
 					"name": "Rate Analysis",
 					"description": _("Construction related Rates"),
 				}
@@ -43,6 +48,11 @@ def get_data():
 					"type": "doctype",
 					"name": "UOM",
 					"description": _("Unit of Measure"),
+				},
+				{
+					"type": "doctype",
+					"name": "Unit Conversion",
+					"description": _("Unit Conversion"),
 				},
 				{
 					"type": "doctype",
